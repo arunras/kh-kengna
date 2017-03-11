@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+#map_canvas 
+{
+	height: 300px;
+	width: 320px;
+	border:2px #666 solid;
+}
+
+a.map
+{
+	font-size:12px;
+}

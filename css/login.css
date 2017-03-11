@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.login{
+	padding:20px;
+	width:350px;
+	padding-top:15px;
+	margin-top:30px;
+	/*height:7px;*/
+	background:url(../app_images/form_1.png) scroll;/*#f9f9f9*/
+	border:1px groove #903;
+	-moz-border-radius: 10px 10px 10px 10px;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+}

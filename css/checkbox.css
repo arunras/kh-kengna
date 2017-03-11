@@ -1,0 +1,69 @@
+/* ------------------------------------------------------------------------
+	This you can customize
+------------------------------------------------------------------------- */
+	label.checkbox{
+		clear:both;
+		font-size:14px;
+		padding:3px;
+		display:inline;
+        font-family: Tahoma;
+	}
+
+	label.checkbox span.holder {
+		height: 61px; /* Total height of your checkbox image */
+		background: url(../app_images/checkbox.png) 0 -1px no-repeat; /* Path to your checkbox image */
+	}
+
+	label.radio span.holder {
+		height: 61px; /* Total height of your radio buttons image */
+		background: url(../app_images/radio.png) 0 -1px no-repeat; /* Path to your radio button image */
+	}
+
+	label.checkbox:hover span.holder,
+	label.radio:hover span.holder { top: -21px !important; } /* Background position on mouseover */
+
+	label.checked span.holder,
+	label.checked span.holder,
+	label.checked:hover span.holder,
+	label.checked:hover span.holder { top: -42px !important; } /* Background position when checked */
+
+
+/* ------------------------------------------------------------------------
+	Customize at your own risk
+------------------------------------------------------------------------- */
+
+	label.list {
+		float: left; clear: left;
+		margin: 0 0 5px 0;
+	}
+
+	label.inline {
+		float: left; margin: 0 10px 0 0;
+	}
+
+		input.hiddenCheckbox {
+			position: absolute; left: -10000px; /* Hide the input */
+		}
+
+		label.prettyCheckbox span.holderWrap {
+			display: block; float: left;
+			position: relative;
+			margin-right: 5px;
+			overflow: hidden;
+		}
+
+		label.prettyCheckbox span.holder {
+			display: block;
+			position: absolute;
+			top: 0; left: 0;
+		}
+/* ---- checkbox style ---- */
+.has-js .label_check,
+.has-js .label_radio { padding-left: 34px; }
+.has-js .label_radio { background: url(../app_images/radio-off.png) no-repeat; }
+.has-js .label_check { background: url(../app_images/uncheck.png) no-repeat; }
+.has-js label.c_on { background: url(../app_images/check.png) no-repeat; }
+.has-js label.r_on { background: url(../app_images/radio-on.png) no-repeat; }
+.has-js .label_check input,
+.has-js .label_radio input { position: absolute; left: -9999px; }
+/* ---- end of checkbox style ---- */

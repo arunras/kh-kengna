@@ -1,0 +1,80 @@
+.user_profile{
+    height: 120px;
+    overflow:auto;
+    margin: 20px 130px 10px 130px;
+}
+
+.profile_left{
+  width: 200px;
+}
+
+img.user_profile_picture{
+    width:150px;
+    min-height:100px;
+    max-height:200px;
+    height:auto;
+}
+
+.profile_name{
+    font-family:@KaiTi;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+.profile_info{
+    display:block;
+    font-family:@Batang;
+    font-size: 14px;
+    padding: 3px;
+    color : #666633;
+}
+
+.profile_label{
+    display:block;
+    font-family:@Batang;
+    font-size: 14px;
+    padding: 3px;
+}
+
+input.own_profile, select.own_profile{
+    border: 1px solid #fff;
+    display:block;
+    font-family:@Batang;
+    font-size: 14px;
+    color : #666633;
+    width: 230px;
+}
+
+input.own_profile:hover, select.own_profile:hover,input.own_profile:focus, select.own_profile:focus{
+    border: 1px solid #e3e3e3;
+}
+
+#edit_profile,#cancel{
+    position:absolute;
+    text-decoration: none;
+    display: block;
+    margin-left: 630px;
+    top:60px;
+    text-align: left;
+    color :blue;
+    width:20px;
+}
+#edit_profile:hover,#cancel:hover{
+    text-decoration: underline;
+}
+
+.profile_hide{
+  visibility: hidden;
+}
+
+.profile_link{
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.profile_link:hover{
+  text-decoration: underline;
+}
+

@@ -1,0 +1,95 @@
+.hotel_review{
+    height:20px;
+    margin: 10px 0 15px 0;
+    display:table-row;
+    width:600px;
+}
+
+.summary_review{
+    width: auto;
+    text-align: left;
+    float:left;
+    display:table-cell;
+}
+
+.summary_review .title{
+    width:auto;
+    height:20px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border: 1px solid #CC6666;
+    float:right;
+}
+.summary_review .title .caption{
+    float:right;
+    padding:0;
+    margin: 2px 2px 2px 2px;
+}
+.summary_review .title .summary_logo{
+    width: 15px;
+    height: 15px;
+    background: url(../images/mango_thumbs.png) no-repeat;
+    float: left;
+    margin: 2px 0 2px 2px;
+}
+
+.summary_review .summary_value{
+    height: 15px;
+    float: right;
+}
+
+
+.summary_review .summary_value div.begin{
+    width:3px;
+    height: 20px;
+    float: right;
+    background: url(../images/review.png) no-repeat;
+}
+
+.summary_review .summary_value div.value{
+    float: right;
+    height: 16px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-left:none;
+    border: 1px solid #CC6666;
+    padding: 2px 5px 2px 5px;
+}
+
+.facebook_profile{
+    height: 20px;
+    display:block;
+}
+
+.facebook_profile .first{
+    width: 20px;
+    height: 20px;
+    float:left;
+    background:url(../images/find_facebook_first.png) no-repeat;
+}
+
+.facebook_profile .center{
+    height: 20px;
+    float:left;
+    background:url(../images/find_facebook_center.png) repeat-x;
+    padding-top: 2px;
+}
+.facebook_profile .center span.text{
+    background: transparent;
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+    height: 20px;
+}
+
+
+.facebook_profile .end{
+    width: 5px;
+    height: 20px;
+    float:left;
+    background: url(../images/find_facebook_end.png) no-repeat;
+}
+

@@ -1,0 +1,54 @@
+.admin_edit{
+    cursor: pointer;
+    margin:5px 0 5px 0;
+    display: block;
+}
+
+.admin_edit span, span.admin_add{
+  color: blue;
+  font-weight: normal;
+}
+
+.admin_edit span:hover,span.admin_add:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.admin_edit span.func{
+    display:none;
+}
+
+.admin_edit:hover span.func{
+    display:inline;
+    color: blue;
+    text-decoration: none;
+}
+.admin_edit:hover span.func:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.address{
+    display:block;
+    cursor: pointer;
+    padding:5px 5px 5px 5px;
+    text-decoration: none;
+    width: 250px;
+}
+
+.active{
+    color:#000;
+    background:#efefef;
+}
+.address_header{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ffeeee;
+}
+
+#city_photos{
+    width:inherit;
+    height: 320px;
+    margin-bottom: 20px;
+}
+

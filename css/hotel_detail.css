@@ -1,0 +1,417 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+   the purpose of edit class is to invisible all edit button or link
+   when the page is load even if the user logged in is registered or administrator
+   the edit class will be removed when the edit_settings link is clicked
+*/
+
+.edit_settings{
+   float:right;
+   width:100px;
+   height: 24px;
+   right: 15px;
+   top: 35px;
+   overflow: hidden;
+   text-decoration: none;
+   text-align: justify;
+   vertical-align: middle;
+   cursor: pointer;
+}
+
+.edit_settings img{
+   margin-top: 1px;
+   margin-left: 3px;
+   margin-right: 5px;
+   float:left;
+}
+
+.edit_settings span{
+   margin-top: 3px;
+   margin-left: 5px;
+   margin-right: 5px;
+   float:left;
+}
+
+.edit_settings:hover{
+   text-decoration: underline;
+}
+
+
+.profile{
+	width: 320px;
+	min-height:150px;
+	padding:0px;
+    margin-top: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.profile img{
+   width:310px;
+   min-height:150px;
+   padding:0px;
+   border:5px solid #e3e3e3;
+}
+
+.editable_profile img:hover{
+   border-color: #bbb;
+}
+
+.editable_profile a{
+   display:block;
+   padding:3px;
+   color: blue;
+}
+
+.hotel_top_banner{
+	height:110px;
+	width:1000px;
+	background:#F6FFF6;
+	border-bottom:thin solid #e3e3e3;
+}
+
+.hotel_name{
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:36px;
+	padding-left:50px;
+	color:#7E5538;
+    display:inline;
+}
+
+.hotel_description{
+	text-indent:20px;
+	font-family:"Times New Roman", Times, serif;
+	padding-left:50px;
+	color:#585858;
+	font-size: 14px;
+	text-align: justify;
+	width:600px;
+}
+
+.hotel_address{
+	text-indent:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-left:50px;
+	color:#585858;
+	font-size: 11px;
+	text-align: justify;
+	width:500px;
+}
+
+.left_panel{
+	width:450px;
+	border:none;
+}
+
+a.navigation_location{
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#a2a2a2;
+	text-decoration:none;
+}
+
+a.navigation_location:hover{
+	text-decoration:underline;
+	color:#00F;
+}
+
+.block_title{
+	margin-left:50px;
+	font-weight:bold;
+	color:	#7E5538;
+	font-family:Tahoma;
+	font-size:18px;
+	width:600px;
+	border-bottom:1px solid #7E5538;
+    vertical-align: middle;
+}
+
+.block_title label{
+    margin-bottom:0;
+    margin-top:5px;
+}
+
+
+.block_title .tip{
+    font-size: 15px;
+    font-weight: normal;
+    color: #666;
+    font-family: Times New Roman;
+    margin-left: 5px;
+}
+
+
+.block_title img.logo{
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.block_title span.add{
+    cursor: pointer;
+    float: right;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    vertical-align: text-bottom;
+    font-size: 15px;
+    font-weight:normal;
+    font-family: Times New Roman;
+    text-decoration:none;
+    color: #107300;
+    margin-top:5px;
+}
+.block_title span.add:hover{
+    text-decoration:underline;
+}
+
+
+.large_photo{
+	width:600px;
+	height:280px;
+	border:thin solid #000;
+	margin-left:50px;
+	margin-top:10px;
+	display:inline;
+}
+
+.thumbnail_photo{
+	border:1px solid #721111;
+	width:100px;
+	height:60px;
+	cursor:pointer;
+	margin:5px 0 0 2px;
+}
+
+.thumbnails_container{
+	margin-left:50px;
+	margin-top:0px;
+	width:600px;
+}
+
+
+/* --------- for organic tabs ------- */
+
+.navigationTabs {
+	height: 26px;
+	margin:10px 0 0 50px;
+	line-height: 26px;
+	/*border: 1px solid #e3e3e3;*/
+	width:600px;
+}
+.navigationTabs li {
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	padding-right: 3px;
+    margin:0;
+}
+.navigationTabs li a{
+	float: left;
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	overflow: hidden;
+	background-color: #eee;
+	position: relative;
+	text-decoration: none;
+	background:url(../app_images/gr.png);
+	background-position:top;
+	background-attachment:scroll;
+	border:1px solid #e3e3e3;
+	color:#006;
+}
+.navigationTabs li a:hover {
+	background-color: #f0f0f0;
+	color:#711211;
+	border:1px solid #CCC5C7;
+}
+.navigationTabs li a.active {
+	background-color: #fff;
+	height: 25px;
+	line-height: 25px;
+	border-bottom:1px solid #fff;
+	background-image:none;
+	color:#000;
+}
+.tabsContent {
+	border: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	width:600px;
+	overflow: hidden;
+	margin-left:50px;
+}
+
+.tab {
+	padding: 16px;
+	display: none;
+    font-family: Tahoma;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+.tab h1,h2,h3,h4,h5,h6{
+   padding: 10px;
+   padding-top: 15px;
+}
+
+
+/* ----- end of organic tabs css -----*/
+
+
+
+/* ---- list ---- */
+
+table#row_view{
+	/*border:1px solid #e3e3e3;	*/
+	width:550px;
+}
+
+table#row_view .label{
+	/*background:#FFF3E1;*/
+	width:200px;
+	/*border-right:1px solid #e3e3e3;*/
+	font-weight:bold;
+}
+
+table#row_view .value{
+	padding-left:30px;
+}
+
+table#row_view td{
+	padding:5px 5px 3px 10px;
+}
+/* ---- end of list ---- */
+
+
+
+
+/* --- switch button -- */
+.switch_button{
+   display:inline-block;   
+   width:auto;
+   padding: 0px 0 2px 0;
+   margin:5px 5px 5px 0px;
+   height:30px;
+   background: url('../app_images/switch_2.png') repeat-x;
+   border:1px solid #A87A4C;
+   border-radius : 3px;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   cursor: default;
+   vertical-align: top;
+}
+
+.switch_button span.label{
+   margin-left: 10px;
+   margin-right: 5px;
+   margin-top: 7px;
+   cursor: inherit;
+   float: left;
+}
+
+.switch_button span.data{
+   display: inline-block;
+   padding-top: 7px;
+   padding-left: 5px;
+   margin-right:1px;
+   padding-right: 5px;
+   height: 25px;
+   cursor: inherit;
+   border-left:1px solid #A87A4C;
+   background:#fff;
+   /*background: url('../app_images/switch_1.png') repeat-x;*/
+}
+
+.switch_button span.data label{
+   margin:0;
+   padding:0;
+}
+
+
+/* -- end of switch button -- */
+
+div .hide{
+   display:none;
+}
+
+.edit, .edit span, .edit a{
+    /*border:none;*/
+    background:none;
+    /*margin-left: 10px;*/
+    margin-bottom: 0px;
+    padding:0;
+    color:#59B52B;
+    text-decoration: none;
+}
+
+.edit span:hover, a:hover{
+    text-decoration: underline;
+}
+
+.edit label,label:hover{
+    color: #7E5538;
+    text-decoration: none;
+}
+
+
+#Basic input,select{
+    float:right;
+    border:1px solid #fff;
+    width:80px;
+}
+
+#Basic input:focus, select:focus{
+    border:1px solid #ddd;
+}
+
+#Basic input:hover, select:hover{
+    border:1px solid #ddd;
+}
+
+div.contact{
+    width:330px;
+}
+
+.contact_header{
+    font-size:14px;
+    color: #666;
+    float: left;
+}
+
+div.contact_row{
+    display:block;
+    margin-top:2px;
+    margin-bottom:2px;
+}
+
+.contact_label{
+    font-size: 12px;
+    float:left;
+    margin-left:20px;
+    display:inline;
+    color: #001;
+}
+
+.contact_info{
+    font-size: 12px;
+    margin-right:30px;
+    display:inline;
+    color: #001;
+}
+
+.hotel_price{
+    width: 200px;
+    font-family: Tahoma;
+    color: #FF6666;
+    font-weight: normal;
+    font-size: 20px;
+    display:block;
+    float:right;
+    /*border: 1px solid;*/
+    text-align:right;
+    vertical-align: middle;
+}
+

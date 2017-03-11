@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul, li {
+	margin:0; 
+	padding:0; 
+	list-style:none;
+}
+
+.the_menu {
+	margin-top:5px;
+	display:none;
+	border:1px solid #e3e3e3;
+	-moz-box-shadow: 1px 1px 3px #B56900;
+	-webkit-box-shadow: 1px 1px 3px #B56900;
+	box-shadow: 1px 1px 3px #B56900;
+}
+
+.the_menu li {
+	display:block;
+	background-color: #302f2f;
+}
+
+.the_menu li a {
+	background:#fff;
+	display:block;
+	cursor:pointer;
+}
+
+.the_menu li a:hover {	
+}
+
+.button {
+	/*margin-left:5px;*/	
+	display:inline;
+	cursor:pointer;
+}
+
+.button img{
+	width:10px;
+	height:10px;
+	border:none;
+	padding:0 2px 0 5px;
+}
+
+.button img:hover{
+	cursor:pointer;
+}

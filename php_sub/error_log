@@ -1,0 +1,3 @@
+[01-Aug-2011 03:28:36] PHP Fatal error:  Call to undefined function  getresultset() in /home2/buononav/public_html/HotelCambodia/php_sub/add_newhotel.php on line 116
+[11-Aug-2011 21:41:28] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home2/buononav/public_html/mangosteen_cambodia/module/module.php on line 216
+[12-Aug-2011 00:31:06] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists in /home2/buononav/public_html/mangosteen_cambodia/module/module.php on line 216

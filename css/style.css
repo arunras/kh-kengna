@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+   margin:0;
+   padding:0;
+}
+
+input,select{
+    margin:5px 0 0 5px;
+}
+
+
+body{
+	margin-top:0px;
+	margin-bottom:0px;
+	font-family:sans-serif;
+	font-size:13px;
+	margin-left:0px;
+	margin-right:0px;
+	color:#333;
+	/*background:#f4ecec;*/
+	background:#fff;
+	text-align:center;
+    height:100%;
+}
+
+
+#float_top{
+	width:100%;
+	background:#FFF;
+	height:22px;
+	border-bottom:1px solid #CCC;
+	padding-top:5px;
+	margin:0;
+	margin-top:3px;
+	margin-bottom:3px;
+	/*text-align:right;*/
+}
+
+#float_bottom{
+	display:block;
+	background:#FFF;
+	height:21px;
+	border-top:1px solid #CCC;
+	padding-top:5px;
+	margin:0;
+	text-align:right;
+}
+
+
+a.mango {
+	text-decoration:none;
+	color:#903;
+}
+
+
+a.mango:hover{
+	text-decoration:underline;
+}
+
+div.menu_right,div.menu_left{
+	height:21px;
+	margin-left:5px;
+	margin-right:5px;
+	vertical-align:middle;
+}
+
+div.menu_right{
+	float:right;
+	text-align:right;
+}
+
+div.menu_left{
+	float:left;
+	text-align:left;
+}
+
+
+.menu{
+	text-decoration:none;
+	height:inherit;
+	margin-bottom:1px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border:1px solid #fff;
+	border-bottom:none;
+    color:  #909;
+}
+.menu:hover, .dd_selected{
+	/*text-decoration:underline;*/
+    text-decoration: none;
+	background:url('../app_images/menu_btn.png');
+	height:inherit;
+	-moz-border-radius: 3px 3px 3px 3px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	border:1px solid #919090;
+}
+
+
+#stretch_background{
+	width:100%;
+	background:#FFF;
+	/*margin-top:0px;*/
+	/*padding-top:30px;*/
+    padding-bottom: 20px;
+}
+
+div.mango_bar{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#741305;
+	/*border-bottom:1px solid #903;*/
+	padding-bottom:7px;
+	margin-bottom:10px;
+}
+
+div.mango_bar label{
+	text-shadow: 1px -1px 2px #ECF6FA;
+}
+
+div.error_text{
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:italic;
+	font-size:10px;
+	color:#F00;
+}
+
+.full_row{
+	margin-top:0;
+	padding-top:0;
+	display:block;
+	width:100%;
+}
+
+/* start of file input style */
+div.upload{
+    position: relative;
+    margin: 5px 0 0 0;
+    height:20px;
+}
+
+
+label.upload_fake_style {
+
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+    width:inherit;
+    height: inherit;
+    cursor:pointer;
+}
+
+label.upload_fake_style:hover{
+  text-decoration: underline;
+}
+
+
+/* end of file input style */
+

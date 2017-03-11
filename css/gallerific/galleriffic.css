@@ -1,0 +1,292 @@
+#page{
+	margin-left:50px;
+	height:auto;
+}
+
+div#container {
+	overflow: hidden;
+	width:600px;
+	height:100px;
+}
+div.content {
+	display: none;
+	clear: both;
+	width:600px;
+	height:280px;
+}
+
+div.content a, div.navigation a {
+	text-decoration: none;
+}
+
+div.content a:hover, div.content a:active {
+	text-decoration: underline;
+}
+
+div.navigation a.pageLink {
+	line-height: 58px;
+	height: 58px;
+}
+
+div.navigation a.pageLink  img{
+	vertical-align: middle;
+        margin-top:17px;
+}
+
+div.controls {
+	margin-top: 7px;
+	height: 20px;
+}
+
+div.controls a {
+	padding: 5px;
+        height: 20px;
+        color: #6666ff;
+}
+
+div.controls a:hover{
+   color:#cc0000;
+}
+
+div.ss-controls {
+	float: left;
+}
+div.nav-controls {
+	float: right;
+}
+
+div.slideshow-container,
+div.loader,
+div.slideshow a.advance-link {
+	width: 600px; /* This should be set to be at least the width of the largest image in the slideshow with padding */
+	height:280px;
+}
+
+div.loader,
+div.slideshow a.advance-link,
+div.caption-container {
+	height: 10px; /* This should be set to be at least the height of the largest image in the slideshow with padding */
+    text-align: center;
+}
+
+div.slideshow-container {
+	position: relative;
+	clear: both;
+	float: left;
+	height: 280px;
+	width:600px;
+}
+
+div.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('app_images/loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+
+div.slideshow a.advance-link {
+	display: block;
+	line-height: 0px; /* This should be set to be at least the height of the largest image in the slideshow with padding */
+	text-align: center;
+}
+
+div.slideshow a.advance-link:hover,
+div.slideshow a.advance-link:active,
+div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow a.advance-link:focus {
+	outline: none;
+}
+
+div.slideshow img {
+	border-style: solid;
+	border-width: 1px;
+	width:auto;
+    max-width:600px;
+	height:280px;
+	border:2px solid #000;
+}
+div.caption-container {
+	float: right;
+	position: relative;
+	margin-top: 33px;
+    width:600px;
+    height:10px;
+}
+span.image-caption {
+	display: inline;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+div.caption-container, span.image-caption {
+	width: 600px;
+}
+
+div.caption {
+	padding: 0 12px;
+}
+
+div.image-title {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+div.image-desc {
+	margin-top: 0px;
+    display:inline;
+}
+div.download {
+	margin-top: 8px;
+}
+div.photo-index {
+    display:none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 12px;
+}
+div.navigation-container {
+	float: left;
+	position: relative;
+	left: 50%;
+}
+div.navigation {
+	padding:0;
+	height:70px;
+	width:570px;
+	overflow:hidden;
+	float: left;
+	position: relative;
+	left: -50%;
+}
+div.navigation a.pageLink {
+	display: block;
+	position: relative;
+	float: left;
+	margin: 2px;
+	width: 16px;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+div.navigation a.pageLink:focus {
+	outline: none;
+}
+
+ul.thumbs {
+	display:inline;
+	margin: 0;
+	padding:0;
+	height:70px;
+	width:600px;
+}
+ul.thumbs li {
+	float: left;
+	padding: 0;
+	margin: 2px;
+	list-style: none;
+	width:100px;
+	height:60px;
+}
+a.thumb {
+	padding: 1px;
+	display: block;
+	width:100px;
+	height:60px;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: none;
+	display: block;
+	width:100px;
+	height:60px;
+}
+div.pagination {
+	clear: both;
+	position: relative;
+	left: -50%;
+}
+div.navigation div.top {
+	margin-bottom: 12px;
+	height: 11px;
+}
+div.navigation div.bottom {
+	margin-top: 12px;
+}
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	position: relative;
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #ccc;
+}
+div.pagination a:hover {
+	text-decoration: none;
+}
+div.pagination span.current {
+	font-weight: bold;
+}
+div.pagination span.ellipsis {
+	border: none;
+	padding: 5px 0 3px 2px;
+}
+
+div.gallery-gutter {
+	clear: both;
+	padding-bottom: 20px;
+}
+
+div.navigation a.prev {
+	margin-top:8px;
+}
+
+div.navigation a.next {
+	margin-left:10px;
+	margin-top: 8px;
+}
+
+div.navigation a img{
+	clear:both;
+}
+
+div.loader {
+	background-image: url('../app_images/loader.gif');
+}
+
+
+.city div.navigation a.prev {
+	margin:0;
+    display:block;
+    height:20px;
+    margin-bottom:5px;
+}
+
+.city div.navigation a img{
+	clear:both;
+}
+
+.city div.navigation a.next {
+	margin:0;
+    display:block;
+    height:20px;
+}
+
+.city #thumbs_city{
+    width: 300px;
+    margin:0;
+    height:auto;
+}
+
+

@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.payment_display_thumb{
+	display:inline;
+	height:20px;
+	margin: 0 5px 10px 5px;
+}
+
+.payment_thumbs{
+	height:20px;
+	max-width:50px;
+	display:inline;
+}

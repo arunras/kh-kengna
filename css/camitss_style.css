@@ -1,0 +1,210 @@
+/*
+Credit: http://www.camitss.com
+*/
+/*=====Camitss========================================================================================================================================*/
+/*==Header=========================================================================================================================================*/
+#camitss_header_wrapper {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 5px;
+	/*background-color:#F9F;
+	//border:3px solid #F00;*/
+}
+
+#camitss_header {
+	width: 820px;
+	height: 95px;
+	padding: 0 10px;
+	margin: 0 auto;
+	/*border-bottom:1px solid #6CF;*/
+}
+
+#camitss_header  #logo {
+	float: left;
+	width: 160px;
+	padding: 14px 0px 14px 0px;
+	/*border:1px solid #F00;*/
+}
+
+#camitss_header  #site_title {
+	float: left;
+	width: 650px;
+	padding: 26px 0px 10px 0px;
+	/*padding-top: 30px;*/
+	padding-bottom: 30px;
+	/*border:1px solid #F00;*/
+	border-bottom:1px solid #06F;
+}
+
+#camitss_header  #site_title h1 {
+	margin: 0;
+	padding: 0px 0px 0px 2px;
+	color: #09F;
+	font-size:37px;
+}
+
+#camitss_header  #site_title a {
+	margin: 0px;
+	padding: 0px;
+	font-size: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#camitss_header  #site_title a span {
+	display: block;
+	font-size: 16px;
+	color: #ccc;
+	font-weight: normal;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#header_right {
+	float: right;
+	width: 660px;
+}
+/*==end Header======================================================================================================================================*/
+
+body {
+	margin: 0px;
+	height: auto;
+	padding: 0px 0px 10px 0px;
+	background-color:#FFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.5em; 
+	/*background-color: #1c1816;*/
+	background-image: url(../images/camitss_body.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	/*height:600px;
+	//border: 5px solid #CCC;*/
+}
+
+
+#camitss_body_wrapper {
+	clear:both;
+	width: 820px;
+	height: auto;
+	margin: 0 auto; 
+	/*border:5px solid #0F0; */
+}
+
+
+#camitss_sidebar {
+	float: right;
+	width: 260px;
+}
+
+.sidebar_box {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #433d3a;
+}
+
+
+#camitss_contact_block { 
+	display:inline-table;
+	width: 63%; 
+	height:auto; 
+	margin: 0px 5px 1px 5px;
+	padding-top:0px;
+	vertical-align:top;
+	/*background-color:#FFC;
+	//border: 2px solid #CCC; */
+	border-right:1px #CCC solid;
+}
+
+#camitss_contact_block h1{
+	font-size:24px;
+	color: #09F;
+	margin: 0px 0px 0px 5px;
+	
+}
+
+#contact_namecard { 
+	width: 100%; 
+	height: auto;
+	margin: 0 auto; 
+	margin: 2px 0px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	background: url(../data_images/i2.jpg);
+}
+
+#contact_namecard img{
+	/*width:100%;
+	//height:auto;	
+	//border: 1px #CCC solid;*/
+}
+
+#camitss_family_block { 
+	display:inline-table;
+	width:33%;
+	height:auto;
+	text-align:center;
+	vertical-align:top;
+	margin: 0px 1px 1px 1px;
+	padding:0px 0px 10px 0px;
+	background-color:#FFF;
+	/*border: 2px solid #CCC; */
+}
+
+#camitss_family_block h1 {
+	font-size:24px;
+	color: #09F;
+	margin: 0px 0px 10px 10px;
+}
+
+#camitss_family_block h3 {
+	font-size:24px;
+	text-align:center;
+	color: #09F;
+}
+
+#camitss_family_block img{
+	/*margin: 0px 0px 0px 10px;*/
+	padding-bottom:0px;
+}
+#camitss_family_block h4{
+	font-size:36px;
+	text-align:center;
+	line-height:30px;
+	margin: 10px 0px 0px 0px;
+	color:#09F;
+}
+#camitss_family_block h5{
+	font-size:20px;
+	text-align:center;
+	margin: 10px 0px 0px 0px;
+	color:#09F;
+}
+
+/*==Copyright=========================================================================================================================================*/
+#camitss_copyright_wrapper {
+	width: 100%;
+	/*border-top: 1px solid #36312e;*/
+}
+#camitss_copyright {
+	clear: both;
+	width: 780px;
+	padding: 0px 20px;
+	margin: 0 auto;
+	text-align: center;
+	/*background:#3CC;*/
+	border-top:1px #06F solid;
+	/*border: 1px solid #ccc;*/
+}
+#camitss_copyright a {
+	color: #cfbbb1;
+}
+/*==End Copyright=========================================================================================================================================*/
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+/*=====End Camitss================================================================================================================================================*/

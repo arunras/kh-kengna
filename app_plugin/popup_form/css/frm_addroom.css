@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+font-family:verdana;
+font-size:15px;
+}
+
+/*
+a { /*color:#333; text-decoration:none
+	text-align: right; 
+	margin-left: 150px; 
+	font-size: 12px;
+}
+a:hover {color:#ccc; text-decoration:none}
+*/
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  //height:200px;
+  display:none;
+  z-index:9999;
+  padding:0px 20px 20px 20px;
+}
+
+#boxes #dialog {
+  width:375px; 
+  height:203px;
+  padding:10px;
+  background-color:#ffffff;
+}
+/*/Form Add Room////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#boxes #dialog1 {
+  width:375px; 
+  //height:203px;
+  height: auto;
+  background-color:#ffffff;
+  border: 10px solid rgba(200, 200, 200, 0.1);
+}
+
+#dialog1 .d-header {
+  //background:url(images/login-header.png) no-repeat 0 0 transparent; 
+  width:375px; 
+  //height:150px;
+  height: auto;
+  //border:3px solid #cccccc;
+  position:relative;
+}
+
+#dialog1 .d-header input{
+  position:relative;
+  //top:60px;
+  //left:100px;
+  border: 2px solid #cccccc;
+  height:22px;
+  width:200px;
+  font-size:15px;
+  padding:0px;
+  margin-top:4px;
+}
+#dialog1 .d-header span
+{
+	color: #CCC;
+	font-size:12px;
+}
+
+#dialog1 .d-blank {
+  float:left;
+  //background:url(images/login-blank.png) no-repeat 0 0 transparent; 
+  width:267px; 
+  height:53px;
+}
+
+#dialog1 .d-login {
+  float:left;
+  width:108px; 
+  height:53px;
+}
+
+#feature {
+	font-family:"Times New Roman", Times, serif;
+	font-size: 12px;
+}
+
+#feature td:hover
+{
+	background-color: #9CF; /*rgba(50, 200, 200, 0.5);*/
+	cursor: pointer;
+}
+
+/**********************************************************/
+#dialog1 input.error{
+	background: #f8dbdb;
+	border-color: #e77776;
+}
+
+.btn_save{
+	width: auto;
+	padding: 0px 10px 0px 10px;
+	height: 30px;
+	background: #6f9ff1;
+	color: #fff;
+	font-weight: 700;
+	font-style: normal;
+	border: 0;
+	cursor: pointer;
+}
+.btn_save:hover{
+	background: #79a7f9;
+	color: #FC0;
+}
+
+
+.check_error td
+{
+	background-color:#FCC;
+}
+/**********************************************************/
+/*/Form Add Room////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*
+#boxes #dialog2 {
+  background:url(images/notice.png) no-repeat 0 0 transparent; 
+  width:326px; 
+  height:229px;
+  padding:50px 0 20px 25px;
+}
+*/
+
+
+
+
+
+/*/Form Edit Room////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#boxes #dialog2 {
+  width:375px; 
+  //height:203px;
+  height: auto;
+  background-color:#ffffff;
+  border: 10px solid rgba(200, 200, 200, 0.1);
+}
+
+#dialog2 .d-header {
+  //background:url(images/login-header.png) no-repeat 0 0 transparent; 
+  width:375px; 
+  //height:150px;
+  height: auto;
+  //border:3px solid #cccccc;
+  position:relative;
+}
+
+#dialog2 .d-header input{
+  position:relative;
+  //top:60px;
+  //left:100px;
+  border: 2px solid #cccccc;
+  height:22px;
+  width:200px;
+  font-size:15px;
+  padding:0px;
+  margin-top:4px;
+}
+#dialog2 .d-header span
+{
+	color: #CCC;
+	font-size:12px;
+}
+
+#dialog2 .d-blank {
+  float:left;
+  //background:url(images/login-blank.png) no-repeat 0 0 transparent; 
+  width:267px; 
+  height:53px;
+}
+
+#dialog2 .d-login {
+  float:left;
+  width:108px; 
+  height:53px;
+}
+
+#feature1 {
+	font-family:"Times New Roman", Times, serif;
+	font-size: 12px;
+}
+
+#feature1 td:hover
+{
+	background-color: #9CF; /*rgba(50, 200, 200, 0.5);*/
+	cursor: pointer;
+}
+
+/**********************************************************/
+#dialog2 input.error{
+	background: #f8dbdb;
+	border-color: #e77776;
+}
+
+#btn_close{
+	width: auto;
+	padding: 0px 10px 0px 10px;
+	height: 20px;
+	background: #6f9ff1;
+	color: #fff;
+	font-weight: 700;
+	font-style: normal;
+	border: 0;
+	cursor: pointer;
+}
+#btn_close:hover{
+	background: #79a7f9;
+	color: #FC0;
+}
+
+
+.check_error td
+{
+	background-color:#FCC;
+}
+/**********************************************************/
+/*/END Form Edit Room////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

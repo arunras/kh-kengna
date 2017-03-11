@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+#sadrzaj {
+	margin: 0 auto;
+	width:960px;
+}
+#upute_desno {
+	width:100%;
+	float:left;
+	color:#333;
+	margin:10px;
+	font-size:14px;
+}
+#upute_desno h1 {
+	font-size:28px;
+	padding:5px 0 10px;
+}
+#upute_desno h2 {
+	padding:5px 0 3px;
+	margin:10px 0;
+	border-bottom:1px solid #000;
+}
+#upute_desno p {
+	margin:5px 0;
+	text-align:justify;
+}
+#upute_desno table {
+	width:100%;
+}
+#upute_desno td {
+	vertical-align:top;
+}
+#upute_desno a {
+	color:#090;
+}
+#upute_desno ol {
+	margin:0 0 0 20px;
+}
+#upute_desno pre {
+	border-left:1px solid #999;
+	background:#CCC;
+	color:#333;
+	margin:10px 10px 10px 0;
+	padding:5px;
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	font-family: "Courier New", Courier, monospace, sans-serif;
+	font-size:12px;
+}
+#upute_desno pre.zeleno {
+	color:#090;
+}
+#tabs p {
+	font-size:16px;
+}
+#tabs a {
+	color:#b0025c;
+}
+#tabs ul {
+	margin:0 0 0 25px;
+}
+#tabs dl {
+	border:1px solid #999;
+	padding:10px;
+	margin:5px;
+}
+#tabs dt {
+	color:#F00;
+}
+#tabs dt em {
+	color:#333;
+}
+#tabs dd {
+	padding:5px 0 5px 40px;
+}
+#tabs th {
+	text-align:right;
+	vertical-align:top;
+}
+#tabs td {
+	text-align:left;
+	padding:0 0 3px 10px;
+}
+/*#tabs */
+.test {
+	//float:right;
+	display:inline;
+	width: 200px;
+	border:1px solid #bb0224;
+	//margin: 0px 0px 0px 300px;
+	padding:5px;
+}
+.podvuceno {
+	color:#6F6;
+	text-decoration:underline;
+}
+#ads_desno {
+	width:160px;
+	float:right;
+	margin:10px 10px 10px 0;
+}
+#footer {
+	margin:0 auto;
+	padding: 10px 0 0 0;
+	width:990px;
+	text-align:center;
+	clear:both;
+	font-size:12px;
+}
+#razmak {
+	border-bottom:1px solid #000;
+}
+.padding_gore {
+	padding:3px 0 0 0;
+}
+#footer a {
+	color:#888888;
+	text-decoration:none;
+}
+#footer a:hover {
+	text-decoration:underline;
+}
+.code {
+	width:290px;
+}
+#hover-test
+{
+	color: #F00;
+}
